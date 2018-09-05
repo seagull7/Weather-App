@@ -1,0 +1,88 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("http://www.minneapoliswasher.com/wp-content/uploads/2015/11/MPLS-Washer-Stainless-Steel-Background.jpg");
+    background-size: cover;
+    height: 15vh;
+    border-bottom: 1px solid black;
+}
+h1{
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+}
+#city, button{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10%;
+    font-size: 20px;
+}
+#weatherBox{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 5%;
+    z-index: 1;
+}
+#box{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 40%;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(230, 231, 231, 0.7);
+    font-size: 25px;
+    
+}
+#everything{
+    width: 100%;
+    height: 85vh;
+    background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/blurry-snow-in-sun-glow_zktx7gnlh__F0000.png');
+    background-size:cover;
+}
+#vert{
+    position: absolute;
+    top: 15.25%;
+    left: 50%;
+    width: 20px;
+    height: 85%;
+    background-image: url("https://inhabitat.com/wp-content/blogs.dir/1/files/2018/02/wood-1580x549.jpg");
+    background-size: cover;
+    border:none;
+    z-index: 0;
+}
+#horiz{
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    width: 100%;
+    height: 20px;
+    background-image: url("https://inhabitat.com/wp-content/blogs.dir/1/files/2018/02/wood-1580x549.jpg");
+    background-size: cover;
+    border:none;
+    z-index: 0;
+}
+#desc{
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+    position: absolute;
+    z-index: 2;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5%;
+    padding: 5px;
+    background-color: rgba(230, 231, 231, 0.4);
+}

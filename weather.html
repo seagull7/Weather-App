@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat" rel="stylesheet"> 
+    </head>
+<body>
+    <header>
+        <h1>Weather</h1>
+        <form>
+            <div>
+                <input type="search" id="city" placeholder="Input a City name" size="30">
+                
+                <button id="search">Search</button>
+            </div>
+        </form>
+    </header>
+
+    
+    <div id ="everything">
+        <div id="vert"></div>
+        <div id="horiz"></div>
+        <div id="weatherBox">
+            <div id="box">
+                <label>Temp: </label>
+                <label id="temp"></label>
+            </div>
+            <div id="box">
+                <label>Humidity: </label>
+                <label id="humidity"></label>
+            </div>
+            <div id="box">
+                <label>Pressure: </label>
+                <label id="pressure"></label>
+            </div>
+            <div id="box">
+                <label>High: </label>
+                <label id="high"></label>
+            </div>
+            <div id="box">
+                <label>Low: </label>
+                <label id="low"></label>
+            </div>
+            <div id="box">
+                <label>Wind Speed: </label>
+                <label id="wind"></label>   
+            </div>
+        </div>
+        <label id="desc">Weather by Sam</label>
+    </div>
+
+
+    
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+    <script src="weather.js"></script>
+</body>
+</html>
